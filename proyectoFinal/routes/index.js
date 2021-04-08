@@ -10,4 +10,22 @@ router.get('/', function(req, res, next) {
 
 router.get('/index', indexController.index);
 
+router.get('/login', indexController.login);
+
+router.get('/product', indexController.product);
+
+router.get('/profile', indexController.profile);
+
+router.get('/register', indexController.register);
+
+router.get('/search', indexController.search);
+
+router.get('/productAdd', indexController.productAdd);
+
+router.get('/profileEdit', indexController.profileEdit);
+
+router.get('/headerLogueado', indexController.headerLogueado);
+
+//router.get('/error', indexController.error);
+
 module.exports = router;
