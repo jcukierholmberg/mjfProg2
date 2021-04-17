@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/index', indexController.index);
 
-router.get('/login', indexController.login);
+//router.get('/login', indexController.login);
 
 router.get('/search', indexController.search);
 
