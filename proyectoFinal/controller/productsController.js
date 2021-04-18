@@ -1,12 +1,10 @@
-const express = require('express');
-
 let productsController = {
     product: function(req, res) {
-        res.render ('product.ejs')
+        return res.render ('product')
     },
 
     productAdd: function(req, res) {
-        res.render ('productAdd.ejs')
+        return res.render ('productAdd')
     },
 
 }
