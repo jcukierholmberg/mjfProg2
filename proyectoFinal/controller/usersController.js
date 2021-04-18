@@ -2,18 +2,18 @@ const express = require('express');
 
 let usersController = {
     login: function(req, res) {
-        res.render ('login.ejs')
+        res.render ('login')
     },
     profile : function(req, res) {
-        res.render ('profile.ejs')
+        res.render ('profile')
     },
 
     profileEdit: function(req, res) {
-        res.render ('profileEdit.ejs')
+        res.render ('profileEdit')
     },
 
     register: function(req, res) {
-        res.render ('register.ejs')
+        res.render ('register')
     },
 }
 
