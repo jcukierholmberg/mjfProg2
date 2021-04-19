@@ -12,7 +12,8 @@ let buzos = {
     precio: 65,
     enOferta: 'si',
     comentarios: [
-        {usuarioQueComento: 'flormartinez', comentario:'Comodisimo!'}, 
+        {usuarioQueComento: 'flormartinez', 
+        comentario:'Comodisimo!'}, 
         
         {usuarioQueComento: 'martinasanchez',
         comentario:'Se me descoloro con el lavado'}, 
@@ -20,10 +21,13 @@ let buzos = {
         {usuarioQueComento: 'mariagomez', 
         comentario:'Estaba sucio'}, 
         
-        {usuarioQueComento: 'emiliaaramburu', comentario:'Increible, divino'}, 
+        {usuarioQueComento: 'emiliaaramburu', 
+        comentario:'Increible, divino'}, 
         
-        {usuarioQueComento: 'gonzaloecheverria', comentario:'Muy canchero'}]
+        {usuarioQueComento: 'gonzaloecheverria', 
+        comentario:'Muy canchero'}]
 },
+
     { id:1,
     marca: "All Saints",
     modelo: "Grey confy",
@@ -38,7 +42,8 @@ let buzos = {
         {usuarioQueComento: 'flormartinez', 
         comentario:'Se lo regale a mi novio! Le quedo perfecto'}, 
         
-        {usuarioQueComento: 'martinasanchez', comentario:'Lindisimo'}, 
+        {usuarioQueComento: 'martinasanchez', 
+        comentario:'Lindisimo'}, 
         
         {usuarioQueComento: 'mariagomez', 
         comentario:'Tardo mucho en llegar el pedido'}, 
@@ -46,10 +51,11 @@ let buzos = {
         {usuarioQueComento: 'emiliaaramburu', 
         comentario:'Se elastiza'}, 
         
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Muy comodo'}]
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Muy comodo'}]
 },
 
-    { id:3,
+    { id:2,
     marca: "Fila",
     modelo: "Capucha tres colores",
     talles:"S,M",
@@ -60,9 +66,11 @@ let buzos = {
     precio: 50,
     enOferta: "si",
     comentarios: [
-        {usuarioQueComento: 'gonzaloecheverria', comentario:'Comodisimo'},
+        {usuarioQueComento: 'gonzaloecheverria', 
+        comentario:'Comodisimo'},
 
-        {usuarioQueComento: 'martinasanchez', comentario:'Cancherisimo'}, 
+        {usuarioQueComento: 'martinasanchez', 
+        comentario:'Cancherisimo'}, 
 
         {usuarioQueComento: 'mariagomez', 
         comentario:'Se confundieron de talle'}, 
@@ -70,10 +78,11 @@ let buzos = {
         {usuarioQueComento: 'emiliaaramburu', 
         comentario:'El rojo se decoloro'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Lo uso para todo!'}]
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Lo uso para todo!'}]
  },
 
-    { id:4,
+    { id:3,
     marca: "Gucci",
     modelo: "Cierre con sigla G",
     talles:"S,L",
@@ -84,19 +93,23 @@ let buzos = {
     precio: 150,
     enOferta: 'no',
     comentarios: [
-        {usuarioQueComento: 'gonzaloecheverria', comentario:'Muy caro, no lo vale'}, 
+        {usuarioQueComento: 'gonzaloecheverria', 
+        comentario:'Muy caro, no lo vale'}, 
 
-        {usuarioQueComento: 'flormartinez', comentario:'Cancherisimo'}, 
+        {usuarioQueComento: 'flormartinez', 
+        comentario:'Cancherisimo'}, 
 
         {usuarioQueComento: 'mariagomez', 
         comentario:'Divino el color'}, 
 
-        {usuarioQueComento: 'emiliaaramburu', comentario:'Super'}, 
+        {usuarioQueComento: 'emiliaaramburu', 
+        comentario:'Super'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Muy suave'}]
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Muy suave'}]
 },
 
-    { id:5,
+    { id:4,
     marca: "HM",
     modelo: "Bicolor con capucha",
     talles:"S",
@@ -107,20 +120,23 @@ let buzos = {
     precio: 40,
     enOferta: 'si',
     comentarios: [
-        {usuarioQueComento: 'gonzaloecheverria', comentario:'Super'}, 
+        {usuarioQueComento: 'gonzaloecheverria', 
+        comentario:'Super'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Mala calidad'}, 
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Mala calidad'}, 
 
         {usuarioQueComento: 'martinasanchez', 
         comentario:'Se descoloro'}, 
 
-        {usuarioQueComento: 'emiliaaramburu', comentario:'Comodisimo'}, 
+        {usuarioQueComento: 'emiliaaramburu', 
+        comentario:'Comodisimo'}, 
 
         {usuarioQueComento: 'flormartinez', 
         comentario:'Todo terreno'}]
 },
 
-    {id:6,
+    {id:5,
     marca: "Prada",
     modelo: "Bicolor sin capucha",
     talles:"M",
@@ -131,9 +147,11 @@ let buzos = {
     precio: 40,
     enOferta: 'si',
     comentarios: [
-        {usuarioQueComento: 'gonzaloecheverria', comentario:'Tremendo'}, 
+        {usuarioQueComento: 'gonzaloecheverria', 
+        comentario:'Tremendo'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Muy suave'}, 
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Muy suave'}, 
 
         {usuarioQueComento: 'martinasanchez', 
         comentario:'Muy apretado'}, 
@@ -145,7 +163,7 @@ let buzos = {
         comentario:'Lindisimos colores'}]
 },
 
-    {id:7,
+    {id:6,
     marca: "Nike",
     modelo: "Bicolor contra lluvia",
     talles:"S,L",
@@ -156,9 +174,11 @@ let buzos = {
     precio: 55,
     enOferta: 'si',
     comentarios: [
-        {usuarioQueComento: 'flormartinez', comentario:'Super abrigado'}, 
+        {usuarioQueComento: 'flormartinez', 
+        comentario:'Super abrigado'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Colores super'}, 
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Colores super'}, 
 
         {usuarioQueComento: 'martinasanchez', 
         comentario:'Re suave'}, 
@@ -170,7 +190,7 @@ let buzos = {
         comentario:'Tremendo'}]
 },
 
-    {id:8,
+    {id:7,
     marca: "Zara",
     modelo: "Bicolor sin capucha amarillo",
     talles:"M",
@@ -181,10 +201,12 @@ let buzos = {
     precio: 60,
     enOferta: 'no',
     comentarios: [
-        {usuarioQueComento: 'flormartinez', comentario:'Comodisimo y muy calentito'}, 
+        {usuarioQueComento: 'flormartinez', 
+        comentario:'Comodisimo y muy calentito'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Colores super combinables'}, 
-
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Se me deshilacho'},
+        
         {usuarioQueComento: 'gonzaloecheverria', 
         comentario:'Suave'}, 
 
