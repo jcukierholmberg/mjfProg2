@@ -3,31 +3,27 @@ let buzos = require ("../data/data");
 
 let indexController = { 
     index : function(req, res) {
-        return res.render ('index')
+        return res.render ('index', {resultado: buzos.lista})
     },
 
     search: function(req, res) {
-        return res.render ('search')
-    },
-    
-   
-
-    searchResults: (req, res) => {
         let search = req.query.searchResults
 
         let result = []
-        for( let i = 0; i < instrumentos.lista.length; i++){
-            var nombreMarcaModelo = instrumentos.lista[i].nombreDelInstrumento.toLowerCase() + ' ' + instrumentos.lista[i].marca.toLowerCase() + ' ' + instrumentos.lista[i].modelo.toLowerCase()
-            var nombreModelo = instrumentos.lista[i].nombreDelInstrumento.toLowerCase() + ' ' + instrumentos.lista[i].modelo.toLowerCase()
-            if(instrumentos.lista[i].nombreDelInstrumento.toLowerCase().includes(search.toLowerCase()) || instrumentos.lista[i].marca.toLowerCase().includes(search.toLowerCase()) || instrumentos.lista[i].modelo.toLowerCase().includes(search.toLowerCase())){
-                result.push(instrumentos.lista[i])
+        for( let i = 0; i < buzos.lista.length; i++){
+            var marcaModelo = buzos.lista[i].marca.toLowerCase() + ' ' + buzos.lista[i].modelo.toLowerCase() + ' ' 
+            var marca = buzos.lista[i].marca.toLowerCase() + ' ' 
+            if(buzos.lista[i].marca.toLowerCase().includes(search.toLowerCase()) || buzos.lista[i].modelo.toLowerCase().includes(search.toLowerCase())){
+                result.push(buzos.lista[i])
             }
-            else if(nombreMarcaModelo.includes(search.toLowerCase()) || nombreModelo.includes(search.toLowerCase())){
-                result.push(instrumentos.lista[i])
+            else if(marcaModelo.includes(search.toLowerCase()) || marca.includes(search.toLowerCase())){
+                result.push(buzos.lista[i])
             }
         }
-        res.render('search-results', {resultadoSearch: result, instrumentitos: instrumentos.lista, parametroSearch: search})
+        res.render('search', {resultadoSearch: result, resultados: buzos.lista, parametroSearch: search})
     },
+    
+
 
 };
     module.exports = indexController;
