@@ -4,7 +4,7 @@
 
 /*====== Variables ======*/
 :root {
-  --yellow: #EAC926;
+  --yellow: #EAC926; 
   --dark-blue: #03264C;
   --light-blue: #1259c3;
   --gray: #666666;
@@ -68,12 +68,13 @@ hr {
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
-  background-color: var(--yellow);
+  background-color: black;
 }
 
 .main-header_home-link,
 .main-header_credit-link {
   display: block;
+  color: white;
 }
 
 .main-header_credit-link {
@@ -130,6 +131,7 @@ hr {
 .left-navbar,
 .right-navbar {
   font-size: 1.5em;
+  color: white;
 }
 
 .logout{
@@ -479,7 +481,7 @@ textarea.form-input {
 
 /*====== NOSOTROS ======*/
 a {
-  font-family: ImpactHaettenschweiler, , 'Arial Narrow Bold', sans-serif;
+  font-family: ImpactHaettenschweiler,  'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
