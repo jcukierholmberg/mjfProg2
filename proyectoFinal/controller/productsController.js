@@ -1,5 +1,5 @@
 let productsController = {
-    product: function(req, res) {
+    product : function(req, res) {
         return res.render ('product')
     },
 
