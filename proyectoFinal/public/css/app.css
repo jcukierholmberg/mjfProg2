@@ -477,6 +477,17 @@ textarea.form-input {
 }
 
 
+/*====== NOSOTROS ======*/
+a {
+  font-family: ImpactHaettenschweiler, , 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
   .main-header_credit-link {
