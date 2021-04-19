@@ -78,7 +78,8 @@ let buzos = {
         {usuarioQueComento: 'emiliaaramburu', 
         comentario:'El rojo se decoloro'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Lo uso para todo!'}]
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Lo uso para todo!'}]
  },
 
     { id:3,
@@ -92,16 +93,20 @@ let buzos = {
     precio: 150,
     enOferta: 'no',
     comentarios: [
-        {usuarioQueComento: 'gonzaloecheverria', comentario:'Muy caro, no lo vale'}, 
+        {usuarioQueComento: 'gonzaloecheverria', 
+        comentario:'Muy caro, no lo vale'}, 
 
-        {usuarioQueComento: 'flormartinez', comentario:'Cancherisimo'}, 
+        {usuarioQueComento: 'flormartinez', 
+        comentario:'Cancherisimo'}, 
 
         {usuarioQueComento: 'mariagomez', 
         comentario:'Divino el color'}, 
 
-        {usuarioQueComento: 'emiliaaramburu', comentario:'Super'}, 
+        {usuarioQueComento: 'emiliaaramburu', 
+        comentario:'Super'}, 
 
-        {usuarioQueComento: 'joaquingonzalez', comentario:'Muy suave'}]
+        {usuarioQueComento: 'joaquingonzalez', 
+        comentario:'Muy suave'}]
 },
 
     { id:4,
