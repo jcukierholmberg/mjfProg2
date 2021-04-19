@@ -261,7 +261,7 @@ hr {
 
 /*====== Footer ======*/
 .main-footer {
-  background-color: #ffffff;
+  background-color: black;
   padding: 20px 0;
   margin-top: 80px;
 }
@@ -276,13 +276,13 @@ hr {
 }
 
 .footer-data h2 {
-  color: var(--gray);
+  color: white;
   font-size: 2.4em;
   font-weight: 400;
 }
 
 .footer-data p {
-  color: var(--gray);
+  color: white;
   font-size: 1.5em;
   font-weight: 300;
 }
@@ -297,6 +297,7 @@ hr {
   color: var(--gray);
   padding: 15px 0;
 }
+
 
 
 /*====== Product Detail ======*/
