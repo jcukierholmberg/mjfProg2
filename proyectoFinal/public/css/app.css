@@ -456,6 +456,12 @@ textarea.form-input {
   padding: 15px;
 }
 
+h2.col-12 {
+  color: black;
+  font-size: medium;
+  
+}
+
 /*====== Profile ======*/
 .info-usuario{
   border-bottom: 1px solid #ccc;
