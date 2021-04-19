@@ -1,3 +1,6 @@
+let buzos = require ("../data/data");
+
+
 let indexController = { 
     index : function(req, res) {
         return res.render ('index')
