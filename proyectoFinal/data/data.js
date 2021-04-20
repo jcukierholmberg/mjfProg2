@@ -218,3 +218,6 @@ let buzos = {
 },
 
 ]}
+
+module.exports = buzos;
+

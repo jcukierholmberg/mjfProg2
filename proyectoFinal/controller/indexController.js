@@ -4,7 +4,7 @@ const { json } = require ('express') //para q es esto
 
 let indexController = { 
     index : function(req, res) {
-        return res.render ('index', {buzos_buzos: buzos.lista})
+        res.render ('index', {buzos_buzos: buzos.lista})
     },
 
     search: function(req, res) {
