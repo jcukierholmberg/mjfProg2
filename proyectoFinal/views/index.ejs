@@ -26,21 +26,25 @@
 			<% for (let i = 0; i < 4; i++) { %> 
 				<div class="col-12 col-sm-6 col-lg-3"> 
 				   <section class="product-box">
-					   <a href="/product/id <%= buzos_buzos[i].id%>">
+					   <a href="/product/id <%= buzos_buzos[i].id %>">
 						   <figure class="product-box_image">
-							   <img src="<%= buzos_buzos[i].imagen%>" alt=" ">
+							   <img src="<%= buzos_buzos[i].imagen %>" alt=" ">
 						   </figure>
 						   <article class="product-box_data">
-							   <h2> <%= buzos_buzos[0].marca + '' + buzos_buzos[0].modelo %> </h2>
-							   <p> 
-								   Talles disponibles: <%=buzos_buzos[0].talles %>
-								   El buzo se publico el: <%=buzos_buzos[0].fechaDePublicacion %>
-							   </p>
+							   <h2> <%= buzos_buzos[i].marca + '' + buzos_buzos[i].modelo %> </h2>
+							   <h3> 
+								   Talles disponibles: <%= buzos_buzos[i].talles %>
+								   <h3>
+								   El buzo se publico el: <%= buzos_buzos[i].fechaDePublicacion %>
+
+									</h3>
+							   </h3>
 							   <p>Comentarios: <%=buzos_buzos[i].comentarios.length %> </p>
 						   </article>
 					   </a>
 				   </section>
-			   </div>
+			   	</div>
+
 				<% } %>   
    
 		</div>
@@ -52,66 +56,6 @@
 			<div class="col-12">
 				<h2 class="products-title">Más comentados</h2>
 			</div>
-			<!-- Show the "ultimos" products 
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="product-box">
-					<a href="/product">
-						<figure class="product-box_image">
-							<img src="images/hm2buzo.jpg" alt="hm buzo">
-						</figure>
-						<article class="product-box_data">
-							<h2>HM</h2>
-							<p>Sudadera en mezcla de algodón con capucha cruzada con forro de punto y cordón de ajuste, un bolsillo canguro y puños y bajo en punto elástico de canalé. Tejido cepillado suave en el interior.</p>
-							<p>Comentarios: 8</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="product-box">
-					<a href="/product">
-						<figure class="product-box_image">
-							<img src="/images/prada2buzo.jpg" alt="buzo prada">
-						</figure>
-						<article class="product-box_data">
-							<h2>Prada</h2>
-							<p>Sudadera Praad bicolor: negro y azul. Tiene detalles en el dorso</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="product-box">
-					<a href="/product">
-						<figure class="product-box_image">
-							<img src="/images/nikebuzo.jpg" alt="buzo nike">
-						</figure>
-						<article class="product-box_data">
-							<h2>Nike</h2>
-							<p>Buzo sin capucha. Material poliester. Super comodo</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="product-box">
-					<a href="/product">
-						<figure class="product-box_image">
-							<img src="/images/zarabuzo.jpg" alt="buzo zara">
-						</figure>
-						<article class="product-box_data">
-							<h2>Zara</h2>
-							<p>Sudadera bicolor sin capucha.</p>
-							<p>Comentarios: 17</p>
-						</article>
-					</a>
-				</section>
-			</div>
-		</div>
-	</div>
-	 Más comentados -->
 
 	<%- include('./partials/footer') %>
 
