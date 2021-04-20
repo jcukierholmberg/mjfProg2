@@ -21,26 +21,28 @@
 				<h2 class="products-title">Novedades</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
-			<% for(let i = 0, i < 4; i++) { %> -->
-			 <div class="col-12 col-sm-6 col-lg-3"> 
-				<section class="product-box">
-					<a href="/product/id <%=buzos_buzos[0].id%>">
-						<figure class="product-box_image">
-							<img src="<%=buzos_buzos[0].imagen%>" alt=" ">
-						</figure>
-						<article class="product-box_data">
-							<h2> <%=buzos_buzos[0].marca + ' ' buzos_buzos[0].modelo %></h2>
-							<p>
-								Talles disponibles: <%=buzos_buzos[0].talles %>
-								El buzo se publico el: <%=buzos_buzos[0].fechaDePublicacion %>
-							</p>
-							<p>Comentarios: <%=buzos_buzos[0].comentarios.length %> </p>
-						</article>
-					</a>
-				</section>
-			</div>
-			 <% } %>   
 
+			<% for(let i = 0; i < 4; i++) { %> 
+
+				<div class="col-12 col-sm-6 col-lg-3"> 
+				   <section class="product-box">
+					   <a href="/product/id <%= buzos_buzos[0].id%>">
+						   <figure class="product-box_image">
+							   <img src="<%= buzos_buzos[0].imagen%>" alt=" ">
+						   </figure>
+						   <article class="product-box_data">
+							   <h2> <%= buzos_buzos[0].marca + ' ' buzos_buzos[0].modelo %> </h2>
+							   <p>
+								   Talles disponibles: <%=buzos_buzos[0].talles %>
+								   El buzo se publico el: <%=buzos_buzos[0].fechaDePublicacion %>
+							   </p>
+							   <p>Comentarios: <%=buzos_buzos[0].comentarios.length %> </p>
+						   </article>
+					   </a>
+				   </section>
+			   </div>
+				<% } %>   
+   
 		</div>
 	</div>
 	<!-- /Novedades -->
