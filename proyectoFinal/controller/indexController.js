@@ -1,5 +1,6 @@
 let buzos = require ("../data/data");
-const { json } = require ('express');  
+const { json } = require ('express') 
+
 
 
 let indexController = { 
