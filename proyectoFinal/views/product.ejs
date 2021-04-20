@@ -11,7 +11,7 @@
 	<!-- product detail -->
 	<div class="container products-wrapper">
 		<div class="d-flex align-items-center">
-			<h2 class="products-title">Adidas</h2> 
+			<h2 class="products-title"> <%= buzos_buzos[idSearch].marca + ' ' + buzos_buzos[idSearch].modelo %> </h2> 
 			<p class="product-detail-description">
 				<a href="/productAdd">Editar</a>
 			</p>
@@ -19,12 +19,8 @@
 		<div class="product-detail">
 			<div class="row">
 				<article class="col-12 col-lg-8 product-detail-info">
-					<img src="/images/buzoadidass.jpg" alt="" class="product-detail-img">
-					<p class="product-detail-description"> 
-						Tela  Algodón|Polyester|Lino|Viscosa
-						Composición	77% algodón – 23% poliéster
-						Color	Negro
-						Fit	Relajado</p>
+					<img src="<%= buzos_buzos[idSearch].imagen%>" alt="" class="product-detail-img">
+					<p class="product-detail-description"> <%=buzos_buzos[idSearch].descripcion %> </p>
 				</article>
 				<div class="col-12 col-lg-4">
 					<section class="comments">

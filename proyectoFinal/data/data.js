@@ -1,4 +1,3 @@
-
 let buzos = {
     lista: [ 
     { id:0,
@@ -9,8 +8,6 @@ let buzos = {
     imagen: "/images/buzoadidass.jpg" ,
     descripcion: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
     CreadoPor: 'joaquingonzalez',
-    precio: 65,
-    enOferta: 'si',
     comentarios: [
         {usuarioQueComento: 'flormartinez', 
         comentario:'Comodisimo!'}, 
@@ -36,8 +33,6 @@ let buzos = {
     imagen: "/images/allsaintsbuzo.jpg" ,
     descripcion: "Buzo escote redondo y manga ranglan. Color gris. Cintura y puños elastizados. Talle de prenda de la foto: L",
     CreadoPor: 'gonzaloecheverria',
-    precio: 115,
-    enOferta: "no",
     comentarios: [
         {usuarioQueComento: 'flormartinez', 
         comentario:'Se lo regale a mi novio! Le quedo perfecto'}, 
@@ -63,8 +58,6 @@ let buzos = {
     imagen: "/images/buzofila.jpg" ,
     descripcion: "Buzo rojo Fila net. Super comodo. Es abrigado",
     CreadoPor: 'flormartinez',
-    precio: 50,
-    enOferta: "si",
     comentarios: [
         {usuarioQueComento: 'gonzaloecheverria', 
         comentario:'Comodisimo'},
@@ -90,8 +83,6 @@ let buzos = {
     imagen: "/images/gucci2buzo.jpg" ,
     descripcion: "Buzo blanco con detalles originales Gucci.",
     CreadoPor: 'martinasanchez',
-    precio: 150,
-    enOferta: 'no',
     comentarios: [
         {usuarioQueComento: 'gonzaloecheverria', 
         comentario:'Muy caro, no lo vale'}, 
@@ -117,8 +108,6 @@ let buzos = {
     imagen: "images/hm2buzo.jpg" ,
     descripcion: "Sudadera en mezcla de algodón con capucha cruzada con forro de punto y cordón de ajuste, un bolsillo canguro y puños y bajo en punto elástico de canalé. Tejido cepillado suave en el interior",
     CreadoPor: 'mariagomez',
-    precio: 40,
-    enOferta: 'si',
     comentarios: [
         {usuarioQueComento: 'gonzaloecheverria', 
         comentario:'Super'}, 
@@ -144,8 +133,6 @@ let buzos = {
     imagen: "/images/prada2buzo.jpg" ,
     descripcion: "Sudadera Prada bicolor: negro y azul. Tiene detalles en el dorso",
     CreadoPor: 'flormartinez',
-    precio: 40,
-    enOferta: 'si',
     comentarios: [
         {usuarioQueComento: 'gonzaloecheverria', 
         comentario:'Tremendo'}, 
@@ -171,8 +158,6 @@ let buzos = {
     imagen: "/images/nikebuzo.jpg" ,
     descripcion: "Buzo sin capucha. Material poliester. Super comodo",
     CreadoPor: 'gonzaloecheverria',
-    precio: 55,
-    enOferta: 'si',
     comentarios: [
         {usuarioQueComento: 'flormartinez', 
         comentario:'Super abrigado'}, 
@@ -198,8 +183,6 @@ let buzos = {
     imagen: "/images/zarabuzo.jpg" ,
     descripcion: "Buzo sin capucha. Material poliester. Super comodo y abrigado. Colores unicos",
     CreadoPor: 'martinasanchez',
-    precio: 60,
-    enOferta: 'no',
     comentarios: [
         {usuarioQueComento: 'flormartinez', 
         comentario:'Comodisimo y muy calentito'}, 

@@ -3,11 +3,11 @@ let buzos = require ("../data/data");
 let productsController = {
     product : function(req, res) {
         let id = req.params.id
-        return res.render ('product', {producto: buzos.lista, idSearch: id, usuario: buzos.usuario})
+        return res.render ('product', {buzos_buzos: buzos.lista, idSearch:id})
     },
 
     productAdd: function(req, res) {
-        return res.render ('productAdd', {producto: buzos.lista})
+        return res.render ('productAdd', {buzos_buzos: buzos.lista})
     },
 
 }

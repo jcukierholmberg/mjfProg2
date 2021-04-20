@@ -4,33 +4,20 @@ let usersController = {
 
     profile : function(req, res) {
         let nombre = req.params.usuarioQueComento
-                
-        let result = []
-        if (nombre != null) {
-            for (let i = 0; i < buzos.usuarios.length; i++){
-                if (buzos.usuarios[i].username.toLowerCase() == nombreUsuario.toLowerCase()){
-                    result.push (buzos.usuarios[i])
-                }
-            }
-            return res.render ('profile', {buzos_buzos: buzos.lista, usuarioClickeado: nombreUsuario, usuario:buzos.usuario })
-        }
-        
-        else {
-            res.render ("profile", {buzos_buzos: buzos.lista, usuarioClickeado: nombreUsuario, usuario: buzos.usuario })
-            }
+        return res.render ('profile', {buzos_buzos: buzos.lista})
     },
 
     profileEdit: function(req, res) {
         let id = req.params.id
-        return res.render ('profileEdit', {producto: buzos.lista, idSearch: id, usuario: buzos.usuario })
+        return res.render ('profileEdit', {producto: buzos.lista})
     },
 
     register: function(req, res) {
-        return res.render ('register', {title: "Register"})
+        return res.render ('register', {title: "Registrate"})
     },
 
     login: function(req, res) {
-        return res.render ('login', {title: "Inicia Sesion"})
+        return res.render ('login', {title: "Iniciar Sesion"})
      },
 }
 
