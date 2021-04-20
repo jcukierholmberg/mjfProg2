@@ -1,5 +1,5 @@
 let buzos = require ("../data/data");
-const { json } = require ('express') //para q es esto
+const { json } = require ('express');  
 
 
 let indexController = { 
@@ -11,7 +11,7 @@ let indexController = {
         let search = req.query.searchResults
 
         let result = []
-        for( let i = 0; i < buzos.lista.length; i++){
+        for ( let i = 0; i < buzos.lista.length; i++) {
             var marcaModelo = buzos.lista[i].marca.toLowerCase() + ' ' + buzos.lista[i].modelo.toLowerCase() + ' ' 
             var marca = buzos.lista[i].marca.toLowerCase() + ' ' 
             if(buzos.lista[i].marca.toLowerCase().includes(search.toLowerCase()) || buzos.lista[i].modelo.toLowerCase().includes(search.toLowerCase())){
