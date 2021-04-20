@@ -4,19 +4,19 @@ let usersController = {
 
     profile : function(req, res) {
         let nombre = req.params.usuarioQueComento
-                //que es usuarios??
+                
         let result = []
         if (nombre != null) {
             for (let i = 0; i < buzos.usuarios.length; i++){
-                if (buzos.usuarios[i].username.toLowerCase() == nombre.toLowerCase()){
+                if (buzos.usuarios[i].username.toLowerCase() == nombreUsuario.toLowerCase()){
                     result.push (buzos.usuarios[i])
                 }
             }
-            return res.render ('profile', {resultado: buzos.lista, usuarioClickeado: nombreUsuario, usuario:buzos.usuario })
+            return res.render ('profile', {buzos_buzos: buzos.lista, usuarioClickeado: nombreUsuario, usuario:buzos.usuario })
         }
         
         else {
-            res.render ("profile", {resultado: buzos.lista, usuarioClickeado: nombreUsuario, usuario: buzos.usuario })
+            res.render ("profile", {buzos_buzos: buzos.lista, usuarioClickeado: nombreUsuario, usuario: buzos.usuario })
             }
     },
 

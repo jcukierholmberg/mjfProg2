@@ -1,4 +1,5 @@
 let buzos = require ("../data/data");
+const { json } = require ('express')
 
 
 let indexController = { 
@@ -20,7 +21,7 @@ let indexController = {
                 result.push(buzos.lista[i])
             }
         }
-        res.render('search', {resultadoSearch: result, resultados: buzos.lista, parametroSearch: search})
+        res.render('search', {resultadoSearch: result, buzos_buzos: buzos.lista, parametroSearch: search})
     },
     
 
