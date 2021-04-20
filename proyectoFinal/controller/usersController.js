@@ -7,7 +7,7 @@ let usersController = {
                 //que es usuarios??
         let result = []
         if (nombre != null) {
-            fot ( let i = 0; i < buzos.usuarios.length; i++){
+            for (let i = 0; i < buzos.usuarios.length; i++){
                 if (buzos.usuarios[i].username.toLowerCase() == nombre.toLowerCase()){
                     result.push (buzos.usuarios[i])
                 }

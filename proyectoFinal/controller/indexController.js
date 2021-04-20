@@ -3,7 +3,7 @@ let buzos = require ("../data/data");
 
 let indexController = { 
     index : function(req, res) {
-        return res.render ('index', {resultado: buzos.lista})
+        return res.render ('index', {buzos_buzos: buzos.lista})
     },
 
     search: function(req, res) {
