@@ -11,61 +11,41 @@
 	<!-- product detail -->
 	<div class="container products-wrapper">
 		<div class="d-flex align-items-center">
-			<h2 class="products-title"> <%= buzos_buzos[i].marca + ' ' + buzos_buzos[i].modelo %> </h2> 
+			<h2 class="products-title"> 
+				<%= buzos_buzos[idSearch].marca + ' ' + buzos_buzos[idSearch].modelo %> 
+			</h2> 
 			<p class="product-detail-description">
-				<a href="/productAdd">Editar</a>
+				<a href="/product/productAdd">Editar</a>
 			</p>
 		</div>
 		<div class="product-detail">
 			<div class="row">
 				<article class="col-12 col-lg-8 product-detail-info">
-					<img src="<%= buzos_buzos[idSearch].imagen%>" alt="" class="product-detail-img">
-					<p class="product-detail-description"> <%=buzos_buzos[idSearch].descripcion %> </p>
+					<img src="<%= producto[idSearch].imagen%>" alt="" class="product-detail-img">
+					<p class="product-detail-description"> <%= producto[idSearch].descripcion %> </p>
 				</article>
+
 				<div class="col-12 col-lg-4">
-					<section class="comments">
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-								<strong> <a href="/profile">joaquingonzalez: </a> </strong>
-								Me encanto el buzo! Muy comodo y canchero. Se puede usar en todo momento! No se destiñe.</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="/profile">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur.</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="/profile">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="/profile">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet.</p>
-							</div>
-						</article>
-						<article>
-							<img src="https://via.placeholder.com/35" alt="">
-							<div class="data">
-								<p class="user">
-									<strong> <a href="/profile">Nombre usuario: </a> </strong>
-									Texto del comentario que escribió el usuario Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Tempora doloribus enim aspernatur fugit corrupti suscipit sit dolore</p>
-							</div>
-						</article>
+				
+				<section class="comments">					
+					<% for (let i = 0; i < producto[idSearch].comentarios.length; i++) { %> 
+
+						
+					
+				<article>
+					<img src="https://via.placeholder.com/35" alt="">
+					<div class="data">
+						<p class="user">
+						<strong> <a href="/users/profile"> 
+							<%= producto[idSearch].comentarios[i].usuarioQueComento %>
+						</a> </strong>
+
+						<%= producto[idSearch].comentarios[i].comentario %>
+						</p>
+					</div>
+				</article>
+
+				<% } %>
 
 					</section>
 
