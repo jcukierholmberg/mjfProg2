@@ -15,7 +15,7 @@ let buzos = {
             {usuarioQueComento: 'martinasanchez',
             comentario:'Se me descoloro con el lavado'}, 
             
-            {usuarioQueComento: 'mariagomez', 
+            {usuarioQueComento: 'luz1luz', 
             comentario:'Estaba sucio'}, 
             
             {usuarioQueComento: 'emiliaaramburu', 
@@ -43,7 +43,7 @@ let buzos = {
             {usuarioQueComento: 'mariagomez', 
             comentario:'Tardo mucho en llegar el pedido'}, 
             
-            {usuarioQueComento: 'emiliaaramburu', 
+            {usuarioQueComento: 'mialuro', 
             comentario:'Se elastiza'}, 
             
             {usuarioQueComento: 'joaquingonzalez', 
@@ -84,7 +84,7 @@ let buzos = {
         descripcion: "Buzo blanco con detalles originales Gucci.",
         CreadoPor: 'martinasanchez',
         comentarios: [
-            {usuarioQueComento: 'gonzaloecheverria', 
+            {usuarioQueComento: 'mialuro', 
             comentario:'Muy caro, no lo vale'}, 
 
             {usuarioQueComento: 'flormartinez', 
@@ -140,7 +140,7 @@ let buzos = {
             {usuarioQueComento: 'joaquingonzalez', 
             comentario:'Muy suave'}, 
 
-            {usuarioQueComento: 'martinasanchez', 
+            {usuarioQueComento: 'luz1luz', 
             comentario:'Muy apretado'}, 
 
             {usuarioQueComento: 'emiliaaramburu', 
