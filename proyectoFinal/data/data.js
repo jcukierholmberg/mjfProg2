@@ -157,7 +157,7 @@ let buzos = {
         fechaDePublicacion: "24/12/2018",
         imagen: "/images/nikebuzo.jpg" ,
         descripcion: "Buzo sin capucha. Material poliester. Super comodo",
-        CreadoPor: 'gonzaloecheverria',
+        CreadoPor: 'luz1luz',
         comentarios: [
             {usuarioQueComento: 'flormartinez', 
             comentario:'Super abrigado'}, 
@@ -198,6 +198,81 @@ let buzos = {
 
             {usuarioQueComento: 'mariagomez', 
             comentario:'Tremendo'}]
+    },
+
+    {id:8,
+        marca: "Holiister",
+        modelo: "Bicolor con capucha",
+        talles:"L,XL",
+        fechaDePublicacion: "11/8/2017",
+        imagen: "/images/hollisterbuzo.jpg" ,
+        descripcion: "Comodo buzo cerrado en tela de suave, capucha con cordón ajustable, estampa de logo, bolsillo delantero",
+        CreadoPor: 'mialuro',
+        comentarios: [
+            {usuarioQueComento: 'luz1luz', 
+            comentario:'Tiene mucha onda'}, 
+
+            {usuarioQueComento: 'joaquingonzalez', 
+            comentario:'Super comodo'},
+            
+            {usuarioQueComento: 'gonzaloecheverria', 
+            comentario:'Se me achico con el lavado'}, 
+
+            {usuarioQueComento: 'emiliaaramburu', 
+            comentario:'Lo uso para todo'}, 
+
+            {usuarioQueComento: 'mariagomez', 
+            comentario:'Me encanta'}]
+    },
+
+    {id:9,
+        marca: "Abercrombie",
+        modelo: "Mangas azules",
+        talles:"S,XL",
+        fechaDePublicacion: "01/4/2004",
+        imagen: "/images/abercrombiebuzo.jpg" ,
+        descripcion: "Buzo con capucha informal, confeccionada en tela de mezclilla de algodón cómoda, diseñada con dobladillo ancho. ",
+        CreadoPor: 'gonzaloecheverria',
+        comentarios: [
+            {usuarioQueComento: 'flormartinez', 
+            comentario:'No me gusto el color'}, 
+
+            {usuarioQueComento: 'joaquingonzalez', 
+            comentario:'Divino'},
+            
+            {usuarioQueComento: 'mialuro', 
+            comentario:'El pedido se demoro'}, 
+
+            {usuarioQueComento: 'emiliaaramburu', 
+            comentario:'Buena friza'}, 
+
+            {usuarioQueComento: 'luz1luz', 
+            comentario:'Comodisimo'}]
+    },
+
+    {id:10,
+        marca: "Armani",
+        modelo: "CrewNeck Sweatshirt - Navy blue",
+        talles:"M,L",
+        fechaDePublicacion: "15/12/2001",
+        imagen: "/images/armanibuzo.jpg" ,
+        descripcion: "Manga larga buzco con estampa original sin capucha",
+        CreadoPor: 'flormartinez',
+        comentarios: [
+            {usuarioQueComento: 'martinasanchez', 
+            comentario:'Un comodin!'}, 
+
+            {usuarioQueComento: 'joaquingonzalez', 
+            comentario:'No me pasa la cabeza'},
+            
+            {usuarioQueComento: 'mialuro', 
+            comentario:'Suave por dentro'}, 
+
+            {usuarioQueComento: 'emiliaaramburu', 
+            comentario:'Super'}, 
+
+            {usuarioQueComento: 'luz1luz', 
+            comentario:'Hermoso'}]
     },
 
 ]}
