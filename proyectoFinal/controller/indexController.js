@@ -20,7 +20,8 @@ let indexController = {
 
             resultados = buzos.lista    
     
-        },
+                            }
+
         
     //     else if (buzos.lista[i].marca.toLowerCase().includes(search.toLowerCase()) || buzos.lista[i].modelo.toLowerCase().includes(search.toLowerCase())) 
                            
@@ -31,10 +32,12 @@ let indexController = {
     //     return res.render('search', {result: resultados})
 
     // }
+   
+},
 
-    
-};
+}
 
 
- module.exports = indexController;
+module.exports = indexController;
+
     
