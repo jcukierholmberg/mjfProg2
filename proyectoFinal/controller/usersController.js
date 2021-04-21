@@ -3,12 +3,12 @@ let buzos = require ("../data/data");
 let usersController = {
 
     profile : function(req, res) {
-        let nombre = req.params.usuarioQueComento
+        //let nombre = req.params.usuarioQueComento
         return res.render ('profile', {buzos_buzos: buzos.lista})
     },
 
     profileEdit: function(req, res) {
-        let id = req.params.id
+        //let id = req.params.id
         return res.render ('profileEdit', {producto: buzos.lista})
     },
 

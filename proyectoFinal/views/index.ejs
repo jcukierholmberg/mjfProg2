@@ -25,35 +25,30 @@
 
 			<% for (let i = 0; i < 4; i++) { %> 
 				<div class="col-12 col-sm-6 col-lg-3"> 
-				   
-					<section class="product-box">
+				   <section class="product-box">
+					   <a href="/product/<%= buzos_buzos[i].id %>">
+						   <figure class="product-box_image">
+							   <img src="<%= buzos_buzos[i].imagen %>" alt=" ">
+						   </figure>
+						   <article class="product-box_data">
+							   <h2> <%= buzos_buzos[i].marca + '' + buzos_buzos[i].modelo %> </h2>
+							   <h3> 
+								   Talles disponibles: <%= buzos_buzos[i].talles %>
+								   <h3>
+								   El buzo se publico el: <%= buzos_buzos[i].fechaDePublicacion %>
 
-					   	<a href="/products/<%= buzos_buzos[i].id %>">
-						   
-								<figure class="product-box_image">
-							
-								<img src="<%= buzos_buzos[i].imagen %>" alt=" ">
-
-								</figure>
-
-						   	<article class="product-box_data">
-
-							   	<h2> <%= buzos_buzos[i].marca + '' + buzos_buzos[i].modelo %> </h2>
-							
-								<h3>  Talles disponibles: <%= buzos_buzos[i].talles %> </h3>
-								
-								<h3>El buzo se publico el: <%= buzos_buzos[i].fechaDePublicacion %> </h3>
-								
-							   	<p>Comentarios: <%=buzos_buzos[i].comentarios.length %> </p>
-
+									</h3>
+							   </h3>
+							   <p>Comentarios: <%=buzos_buzos[i].comentarios.length %> </p>  
+							   									
 						   </article>
-					   	</a>
-
+					   </a>
 				   </section>
 				   
 			   	</div>
 
 				<% } %>   
+				
    
 		</div>
 	</div>
@@ -64,6 +59,8 @@
 			<div class="col-12">
 				<h2 class="products-title">Más comentados</h2>
 			</div>
+
+			
 
 	<%- include('./partials/footer') %>
 
