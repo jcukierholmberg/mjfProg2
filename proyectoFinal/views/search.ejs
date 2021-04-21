@@ -18,41 +18,18 @@
 	Show the "ultimos" products 
 	<h2 class="col-12"> <i>///////////////////////////////////////// 
 	<br> Acá van los resultados de búsqueda. 
-	<!-- <br>
-	Eliminen estás líneas y cosntruyan la página de resultados de búsqueda. <br>
-	////////////////
-	</h2>-->
 
-			
+
+	<h2>
 	<% if(resultadoSearch.length === 0 ){ %>
-	<h2 class="producto-no-existente"> No es posible encontrar el buzo deseado. Porfavor intenta denuevo. </h2>
-	<% } %> 
-
-
-	<% if(parametroSearch == '' ){ %>
-	<h2 class="producto-no-encontrado"> Porfavor ingresa algun valor valido en el campo de busqueda. </h2>
-	<% } else {%> 
-			 
+	
+		<h2 class="producto-no-existente"> No es posible encontrar el buzo deseado. Porfavor intenta denuevo. </h2>
+	
+	<% } else %> 
+       
+		<h2 class="producto-no-existente"> Null </h2>
 		
-	<% for(let i = 0; i < resultadoSearch.length; i++) { %> 	
-	<div class="col-12 col-sm-6 col-lg-3">
-		<section class="product-box">
-			<a href="/product/id <%= buzos_buzos[i].id %>">
-				<figure class="product-box_image">
-					<img src="<%= buzos_buzos[i].imagen %>" alt=" ">
-				</figure>
-				<article class="product-box_data">
-					<h2> <%= buzos_buzos[i].marca + ' ' buzos_buzos[i].modelo %></h2>
-					<p>
-						Talles disponibles: <%= buzos_buzos[i].talles %>
-						El buzo se publico el: <%= buzos_buzos[i].fechaDePublicacion %>
-					</p>
-					<p>Comentarios: <%= buzos_buzos[i].comentarios.length %> </p>
-				</article>
-			</a>
-		</section>
-	</div>
-	<% } %>
+	</h2>
 
 <%- include('./partials/footer') %>
 
