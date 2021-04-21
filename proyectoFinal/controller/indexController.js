@@ -11,8 +11,8 @@ let indexController = {
     search : function(req, res) {
         let criterio = req.query.search
         let resultados = [] 
+    
 
-      
     
         // for(let i=0; i<result.length; i ++) {
 
@@ -29,7 +29,7 @@ let indexController = {
         
     //     else 
 
-    //     return res.render('search', {result: resultados})
+    return res.render('search', {result: resultados})
 
     // }
    
