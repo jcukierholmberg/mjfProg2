@@ -12,8 +12,6 @@ let indexController = {
         let criterio = req.query.search
         let resultados = [] 
     
-
-    
         // for(let i=0; i<result.length; i ++) {
 
             if (!criterio) { 
