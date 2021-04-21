@@ -29,7 +29,8 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  /* // background-color: var(--light-gray); */
+  background-color: black;
 }
 
 ul,
@@ -74,7 +75,10 @@ hr {
 .main-header_home-link,
 .main-header_credit-link {
   display: block;
+  font-size: 2.1em;
   color: white;
+  font-family: "tahoma";
+  
 }
 
 .main-header_credit-link {
@@ -130,8 +134,9 @@ hr {
 
 .left-navbar,
 .right-navbar {
-  font-size: 1.5em;
+  font-size: 2.1em;
   color: white;
+  font-family: "trebuchet MS";
 }
 
 .logout{
@@ -173,7 +178,7 @@ hr {
 .products-title {
   font-size: 2.4em;
   font-weight: 400;
-  color: var(--gray);
+  color: white;
 }
 
 .product-box {
@@ -271,7 +276,8 @@ hr {
 }
 
 .footer-data i {
-  color: var(--light-blue);
+  color: orangered;
+  /* color: var(--light-blue); */
   font-size: 3.5em;
 }
 
@@ -297,7 +303,6 @@ hr {
   color: var(--gray);
   padding: 15px 0;
 }
-
 
 
 /*====== Product Detail ======*/
@@ -328,6 +333,7 @@ hr {
   padding: 15px 15px 15px 40px;
   font-size: 1.8em;
   line-height: 1.5;
+  color: orangered;
 }
 
 .product-detail-price {
@@ -372,7 +378,7 @@ hr {
 }
 
 .buy-now-button {
-  background-color: var(--light-blue);
+  background-color: orangered;
   font-size: 1.6em;
   color: #ffffff;
   padding: 15px;
@@ -427,6 +433,7 @@ hr {
 }
 
 /*====== Formularios ======*/
+
 .form-label {
   display: inline-block;
   font-size: 1.6em;
@@ -462,6 +469,17 @@ h2.col-12 {
   
 }
 
+.font-impact-white {
+  color: white;
+  font-size: medium;
+}
+
+.button-orange {
+  background-color: orangered;
+  font-size: large;
+  font-weight: 800;
+}
+
 /*====== Profile ======*/
 .info-usuario{
   border-bottom: 1px solid #ccc;
@@ -476,10 +494,15 @@ h2.col-12 {
 .main-title{
   font-size: 25px;
   margin-bottom: 10px;
+  color: white;
+}
+
+.data-container {
+  color: white;
 }
 
 .btn{
-  background-color: #1259c3;
+  background-color: orangered;
   padding: 10px 20px;
   border-radius: 4px;
   color: #fff;
@@ -487,15 +510,19 @@ h2.col-12 {
 
 
 /*====== NOSOTROS ======*/
-a {
-  font-family: ImpactHaettenschweiler,  'Arial Narrow Bold', sans-serif;
+
+.integrantes {
+  color: orangered;
 }
 
-h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.font {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
+/* p {
+  color: white;
+  font-size: medium;
+} */
 
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
@@ -528,7 +555,7 @@ h1 {
 
   .left-navbar a:hover,
   .right-navbar a:hover {
-    color: var(--light-blue);
+    color: orangered;
   }
 
   .left-navbar li {
