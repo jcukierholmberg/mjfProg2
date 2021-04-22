@@ -519,6 +519,10 @@ h2.col-12 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+h2.producto-no-existente {
+  color: white;
+}
+
 /* p {
   color: white;
   font-size: medium;

@@ -2,7 +2,7 @@ let buzos = {
     lista: [ 
         { id:0,
         marca: "Adidas",
-        modelo: "Original 3 stripes",
+        modelo: " Original 3 stripes",
         talles:"M,L",
         fechaDePublicacion: "2/7/2019",
         imagen: "/images/buzoadidass.jpg" ,
@@ -27,7 +27,7 @@ let buzos = {
 
         { id:1,
         marca: "All Saints",
-        modelo: "Grey confy",
+        modelo: " Grey confy",
         talles:"S,M,L",
         fechaDePublicacion: "12/5/2020",
         imagen: "/images/allsaintsbuzo.jpg" ,
@@ -44,7 +44,10 @@ let buzos = {
             comentario:'Tardo mucho en llegar el pedido'}, 
             
             {usuarioQueComento: 'mialuro', 
-            comentario:'Se elastiza'}, 
+            comentario:'Se elastiza'},
+            
+            {usuarioQueComento: 'luz1luz', 
+            comentario:'Hermoso'},
             
             {usuarioQueComento: 'joaquingonzalez', 
             comentario:'Muy comodo'}]
@@ -52,7 +55,7 @@ let buzos = {
 
         { id:2,
         marca: "Fila",
-        modelo: "Capucha tres colores",
+        modelo: " Capucha tres colores",
         talles:"S,M",
         fechaDePublicacion: "13/12/2008",
         imagen: "/images/buzofila.jpg" ,
@@ -77,7 +80,7 @@ let buzos = {
 
         { id:3,
         marca: "Gucci",
-        modelo: "Cierre con sigla G",
+        modelo: " Cierre con sigla G",
         talles:"S,L",
         fechaDePublicacion: "28/1/2020",
         imagen: "/images/gucci2buzo.jpg" ,
@@ -97,12 +100,15 @@ let buzos = {
             comentario:'Super'}, 
 
             {usuarioQueComento: 'joaquingonzalez', 
-            comentario:'Muy suave'}]
+            comentario:'Muy suave'},
+
+            {usuarioQueComento: 'luz1luz', 
+            comentario:'Hermoso'}]
     },
 
         { id:4,
         marca: "HM",
-        modelo: "Bicolor con capucha",
+        modelo: " Bicolor con capucha",
         talles:"S",
         fechaDePublicacion: "19/3/2005",
         imagen: "/images/hm2buzo.jpg" ,
@@ -127,7 +133,7 @@ let buzos = {
 
         {id:5,
         marca: "Prada",
-        modelo: "Bicolor sin capucha",
+        modelo: " Bicolor sin capucha",
         talles:"M",
         fechaDePublicacion: "2/11/2015",
         imagen: "/images/prada2buzo.jpg" ,
@@ -152,7 +158,7 @@ let buzos = {
 
         {id:6,
         marca: "Nike",
-        modelo: "Bicolor contra lluvia",
+        modelo: " Bicolor contra lluvia",
         talles:"S,L",
         fechaDePublicacion: "24/12/2018",
         imagen: "/images/nikebuzo.jpg" ,
@@ -177,7 +183,7 @@ let buzos = {
 
         {id:7,
         marca: "Zara",
-        modelo: "Bicolor sin capucha amarillo",
+        modelo: " Bicolor sin capucha amarillo",
         talles:"M",
         fechaDePublicacion: "21/8/2018",
         imagen: "/images/zarabuzo.jpg" ,
@@ -202,7 +208,7 @@ let buzos = {
 
     {id:8,
         marca: "Holiister",
-        modelo: "Bicolor con capucha",
+        modelo: " Bicolor con capucha",
         talles:"L,XL",
         fechaDePublicacion: "11/8/2017",
         imagen: "/images/hollisterbuzo.jpg" ,
@@ -222,12 +228,19 @@ let buzos = {
             comentario:'Lo uso para todo'}, 
 
             {usuarioQueComento: 'mariagomez', 
-            comentario:'Me encanta'}]
+            comentario:'Me encanta'},
+
+            {usuarioQueComento: 'luz1luz', 
+            comentario:'Hermoso'},
+            
+            {usuarioQueComento: 'martinasanchez', 
+            comentario:'Tremendo'},
+        ]
     },
 
     {id:9,
         marca: "Abercrombie",
-        modelo: "Mangas azules",
+        modelo: " Mangas azules",
         talles:"S,XL",
         fechaDePublicacion: "01/4/2004",
         imagen: "/images/abercrombiebuzo.jpg" ,
@@ -252,7 +265,7 @@ let buzos = {
 
     {id:10,
         marca: "Armani",
-        modelo: "CrewNeck Sweatshirt - Navy blue",
+        modelo: " CrewNeck Sweatshirt - Navy blue",
         talles:"M,L",
         fechaDePublicacion: "15/12/2001",
         imagen: "/images/armanibuzo.jpg" ,
