@@ -1,10 +1,11 @@
 let buzos = require ("../data/data");
+let users = require ("../data/users");
 
 let usersController = {
 
     profile : function(req, res) {
         //let nombre = req.params.usuarioQueComento
-        return res.render ('profile', {buzos_buzos: buzos.lista})
+        return res.render ('profile', {buzos_buzos: buzos.lista, users_users: users.lista })
     },
 
     profileEdit: function(req, res) {
