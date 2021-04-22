@@ -5,25 +5,18 @@
 <%- include('./partials/head') %>
 
 <body>
-	
-	<%- include('./partials/header') %>
-	
-	<!-- Banner -->
-	<div class="banner">
-		<img src="/images/banner2.jpg" alt="Banner de ofertas">
-	</div>
-	<!-- /Banner -->
+    <%- include('./partials/header') %>
 
-	<!-- Nuevos ingresos -->
+    <!-- Nuevos ingresos -->
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="products-title">NUEVOS INGRESOS</h2>
+				<h2 class="products-title">PRODUCTOS DISPONIBLES</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
 
 
-			<% for (let i = 0; i < 4; i++) { %> 
+			<% for (let i = 0; i < buzos_buzos.length; i++) { %> 
 				<div class="col-12 col-sm-6 col-lg-3"> 
 				   <section class="product-box">
 					   <a href="/product/<%= buzos_buzos[i].id %>">
@@ -52,17 +45,10 @@
    
 		</div>
 	</div>
-	<!-- /Novedades -->
-	<!-- Más comentados -->
-	<!-- <div class="container products-wrapper">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="products-title">Más comentados</h2>
-			</div>
 
-			 -->
 
-	<%- include('./partials/footer') %>
+
+    <%- include('./partials/footer') %>
 
 
 </body>	

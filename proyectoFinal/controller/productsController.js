@@ -10,6 +10,10 @@ let productsController = {
         return res.render ('productAdd', {buzos_buzos: buzos.lista})
     },
 
+    allProducts: function(req, res) {
+        return res.render ('allProducts', {buzos_buzos: buzos.lista})
+    },
+
 }
 
 module.exports = productsController;

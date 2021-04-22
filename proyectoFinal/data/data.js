@@ -105,7 +105,7 @@ let buzos = {
         modelo: "Bicolor con capucha",
         talles:"S",
         fechaDePublicacion: "19/3/2005",
-        imagen: "images/hm2buzo.jpg" ,
+        imagen: "/images/hm2buzo.jpg" ,
         descripcion: "Sudadera en mezcla de algodón con capucha cruzada con forro de punto y cordón de ajuste, un bolsillo canguro y puños y bajo en punto elástico de canalé. Tejido cepillado suave en el interior",
         CreadoPor: 'mariagomez',
         comentarios: [
