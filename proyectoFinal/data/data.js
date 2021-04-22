@@ -288,6 +288,69 @@ let buzos = {
             comentario:'Hermoso'}]
     },
 
+    {id:11,
+        marca: "Nike",
+        modelo: " Blanco furia",
+        talles:"S,M,L",
+        fechaDePublicacion: "24/12/2018",
+        imagen: "/images/blanco.jpg" ,
+        descripcion: "Buzo sin capucha. Material poliester. Super comodo",
+        CreadoPor: 'luz1luz',
+        comentarios: [
+            {usuarioQueComento: 'flormartinez', 
+            comentario:'Horriblee'}, 
+
+            {usuarioQueComento: 'joaquingonzalez', 
+            comentario:'Me quedo muy bien'}, 
+
+            {usuarioQueComento: 'martinasanchez', 
+            comentario:'Carisimo estan locos'}, 
+
+            {usuarioQueComento: 'emiliaaramburu', 
+            comentario:'Super lindo'}, 
+
+            {usuarioQueComento: 'mariagomez', 
+            comentario:'Me hubiera gustado que tengan un modelo verde'},
+
+            {usuarioQueComento: 'mialuro', 
+            comentario:'WOWWWW que lindo'},
+
+            {usuarioQueComento: 'gonzaloecheverria', 
+            comentario:'Naaa Locura!'},]
+    },
+
+    {id:12,
+        marca: "Rip Curl",
+        modelo: " Chill mode",
+        talles:"S,M,L",
+        fechaDePublicacion: "28/05/2020",
+        imagen: "/images/ripcurl.jpg" ,
+        descripcion: "Buzo con capucha. Material poliester. Super comodo",
+        CreadoPor: 'luz1luz',
+        comentarios: [
+            {usuarioQueComento: 'flormartinez', 
+            comentario:'Impresive, good job'}, 
+
+            {usuarioQueComento: 'joaquingonzalez', 
+            comentario:'Lindisimo'}, 
+
+            {usuarioQueComento: 'martinasanchez', 
+            comentario:'Lo uso todos los dias'}, 
+
+            {usuarioQueComento: 'emiliaaramburu', 
+            comentario:'Como pueden seguir vendiendo'}, 
+
+            {usuarioQueComento: 'mariagomez', 
+            comentario:'Me encantoo'},
+
+            {usuarioQueComento: 'mialuro', 
+            comentario:'QUIERO UNOOO'},
+
+            {usuarioQueComento: 'gonzaloecheverria', 
+            comentario:'Devuelvanme la plata!'},]
+    },
+
+
 ]}
 
 module.exports = buzos;
