@@ -33,10 +33,10 @@
 					<% for (let i = 0; i < buzos_buzos[idSearch].comentarios.length; i++) { %> 
 
 							<article>
-								<img src="https://via.placeholder.com/35" alt="">
+								<img src="<%= users[i].imagen %> " alt="">
 								<div class="data">
 									<p class="user">
-									<strong> <a href="/users/profile"> 
+									<strong> <a href="/users/profile/:id"> 
 										<%= buzos_buzos[idSearch].comentarios[i].usuarioQueComento %>
 									</a> </strong>
 

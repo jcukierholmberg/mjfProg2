@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
-router.get('/profile', usersController.profile);
+router.get('/profile/:id', usersController.profile);
 
 router.get('/profileEdit', usersController.profileEdit);
 
