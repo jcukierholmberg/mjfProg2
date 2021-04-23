@@ -8,11 +8,11 @@ let productsController = {
     },
 
     productAdd: function(req, res) {
-        return res.render ('productAdd', {buzos_buzos: buzos.lista, users: users.list})
+        return res.render ('productAdd', {buzos_buzos: buzos.lista, users: users.lista})
     },
 
     allProducts: function(req, res) {
-        return res.render ('allProducts', {buzos_buzos: buzos.lista})
+        return res.render ('allProducts', {buzos_buzos: buzos.lista, users: users.lista})
     },
 
 }

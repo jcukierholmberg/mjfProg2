@@ -5,7 +5,7 @@ let usersController = {
 
     profile : function(req, res) {
         let id = req.params.id
-        return res.render ('profile', {buzos_buzos: buzos.lista, users: users.lista, idSearch: id})
+        return res.render ('profile', {buzos_buzos: buzos.lista, users: users.lista, idSearch: id })
     },
 
     profileEdit: function(req, res) {
