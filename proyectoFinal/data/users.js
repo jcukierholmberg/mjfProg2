@@ -10,7 +10,7 @@ let users = {
         fechaDeNacimiento:"15/12/2001",
         dni: "1",
         email: "/images/buzoadidass.jpg" ,
-        password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+        password: "Argenwear123",
         username: 'joaquingonzalez'
         },
 
@@ -20,7 +20,7 @@ let users = {
             fechaDeNacimiento:"15/12/2001",
             dni: "2",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
@@ -30,7 +30,7 @@ let users = {
             fechaDeNacimiento:"15/12/2001",
             dni: "3",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
@@ -40,7 +40,7 @@ let users = {
             fechaDeNacimiento:"15/12/2001",
             dni: "4",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
@@ -50,7 +50,7 @@ let users = {
             fechaDeNacimiento:"15/12/2001",
             dni: "5",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
@@ -60,7 +60,7 @@ let users = {
             fechaDeNacimiento: "15/12/2001",
             dni: "6",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
@@ -71,7 +71,7 @@ let users = {
             fechaDeNacimiento:"15/12/2001",
             dni: "7",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
@@ -82,7 +82,7 @@ let users = {
             fechaDeNacimiento:"15/12/2001",
             dni: "8",
             email: "/images/buzoadidass.jpg" ,
-            password: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
+            password: "Argenwear123",
             username: 'joaquingonzalez'
          },
 
