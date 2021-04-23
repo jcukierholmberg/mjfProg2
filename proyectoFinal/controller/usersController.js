@@ -5,12 +5,12 @@ let usersController = {
 
     profile : function(req, res) {
         //let nombre = req.params.usuarioQueComento
-        return res.render ('profile', {buzos_buzos: buzos.lista, users_users: users.lista })
+        return res.render ('profile', {buzos_buzos: buzos.lista, users: users.lista })
     },
 
     profileEdit: function(req, res) {
         //let id = req.params.id
-        return res.render ('profileEdit', {producto: buzos.lista})
+        return res.render ('profileEdit', {producto: buzos.lista, users: users.lista})
     },
 
     register: function(req, res) {

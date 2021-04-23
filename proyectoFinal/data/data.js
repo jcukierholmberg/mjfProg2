@@ -329,7 +329,7 @@ let buzos = {
         CreadoPor: 'luz1luz',
         comentarios: [
             {usuarioQueComento: 'flormartinez', 
-            comentario:'Impresive, good job'}, 
+            comentario:'Impressive, good job'}, 
 
             {usuarioQueComento: 'joaquingonzalez', 
             comentario:'Lindisimo'}, 

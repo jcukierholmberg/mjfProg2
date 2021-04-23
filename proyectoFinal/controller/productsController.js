@@ -1,4 +1,5 @@
 let buzos = require ("../data/data");
+let users = require ("../data/users")
 
 let productsController = {
     product : function(req, res) {
@@ -7,7 +8,7 @@ let productsController = {
     },
 
     productAdd: function(req, res) {
-        return res.render ('productAdd', {buzos_buzos: buzos.lista})
+        return res.render ('productAdd', {buzos_buzos: buzos.lista, users: users.lista})
     },
 
     allProducts: function(req, res) {
