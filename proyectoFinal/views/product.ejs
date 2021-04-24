@@ -14,12 +14,15 @@
 		<div class="d-flex align-items-center">
 
 			<h2 class="products-title"> 
-				 Buzo <%= buzos_buzos[idSearch].marca + ' '%> Modelo <%= buzos_buzos[idSearch].modelo %>  
+				 Buzo <%= buzos_buzos[idSearch].marca + ' ' %> Modelo <%= buzos_buzos[idSearch].modelo %>  
 			</h2> 
-			<p class="product-detail-description">
-				<a href="/product/productAdd/"> Agregar nuevo producto </a>
-			</p>
+			<!-- <p class="product-detail-description">
+				<a href="/product/productAdd"> Agregar nuevo producto </a>
+			</p> -->
 		</div>
+		<p class="product-detail-description">
+			<a href="/product/productAdd"> Agregar nuevo producto </a>
+		</p>
 		<div class="product-detail">
 			<div class="row">
 				<article class="col-12 col-lg-8 product-detail-info">
@@ -33,7 +36,7 @@
 					<% for (let i = 0; i < buzos_buzos[idSearch].comentarios.length; i++) { %> 
 
 							<article>
-								<h2> ID: <%=users[i].id %>  </h2>
+								<h2 style="color: white;"> ID: <%=users[i].id %>  </h2>
 								<a href="/users/profile/<%= users[i].id %> ">
 								<img src="<%= users[i].imagen %> " alt="">
 								</a>
