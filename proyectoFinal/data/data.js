@@ -42,22 +42,36 @@ let buzos = {
         descripcion: "Buzo escote redondo y manga ranglan. Color gris. Cintura y puños elastizados. Talle de prenda de la foto: L",
         CreadoPor: 'gonzaloecheverria',
         comentarios: [
-            {usuarioQueComento: 'flormartinez', 
+            
+            {
+                idUsuario: 1,
+            usuarioQueComento: 'flormartinez', 
             comentario:'Se lo regale a mi novio! Le quedo perfecto'}, 
             
-            {usuarioQueComento: 'martinasanchez', 
+            {
+            idUsuario: 0,
+            usuarioQueComento: 'martinasanchez', 
             comentario:'Lindisimo'}, 
             
-            {usuarioQueComento: 'mariagomez', 
+            {
+            idUsuario: 3,
+            usuarioQueComento: 'mariagomez', 
             comentario:'Tardo mucho en llegar el pedido'}, 
             
-            {usuarioQueComento: 'mialuro', 
+            
+            {
+                idUsuario: 6,
+            usuarioQueComento: 'mialuro', 
             comentario:'Se elastiza'},
             
-            {usuarioQueComento: 'luz1luz', 
+            {
+                idUsuario: 7,
+                usuarioQueComento: 'luz1luz', 
             comentario:'Hermoso'},
             
-            {usuarioQueComento: 'joaquingonzalez', 
+            {
+                idUsuario: 2,
+                usuarioQueComento: 'joaquingonzalez', 
             comentario:'Muy comodo'}]
     },
 
