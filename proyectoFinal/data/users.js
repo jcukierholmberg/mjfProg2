@@ -1,7 +1,7 @@
 let users = {
     lista: [ 
         
-        { id:1,
+        { id:0,
         nombre: "Martina",
         apellido: "Sanchez",
         imagen: "/images/martinaSanchez.jpg",
@@ -15,7 +15,7 @@ let users = {
         username: 'joaquingonzalez'
         },
 
-        { id:2,
+        { id:1,
             nombre: "Florencia",
             apellido: "Martinez",
             imagen: "/images/florMartinez.jpg",
@@ -29,7 +29,7 @@ let users = {
             username: 'joaquingonzalez'
          },
 
-         { id:3,
+         { id:2,
             nombre: "Joaquin",
             apellido: "Gonzalez",
             imagen: "/images/luz1luz.jpg",
@@ -43,7 +43,7 @@ let users = {
             username: 'joaquingonzalez'
          },
 
-         { id:4,
+         { id:3,
             nombre: "Maria",
             apellido: "Gomez",
             imagen: "/images/mariaGomez.jpg",
@@ -57,7 +57,7 @@ let users = {
             username: 'joaquingonzalez'
          },
 
-         { id:5,
+         { id:4,
             nombre: "Gonzalo",
             apellido: " Echeverria",
             imagen: "/images/gonzaloEcheverria.jpg",
@@ -71,7 +71,7 @@ let users = {
             username: 'joaquingonzalez'
          },
 
-         { id:6,
+         { id:5,
             nombre: "Emilia",
             apellido: " Aramburu",
             imagen: "/images/emiliaAramburu.jpg",
@@ -86,10 +86,10 @@ let users = {
          },
 
 
-         { id:7,
+         { id:6,
             nombre: "Mia",
             apellido: "Luro",
-            imagen: "/images/florMartinez.jpg",
+            imagen: "/images/miaLuro.jpg",
             productos: 29,
             seguidores: 6,
             comentarios: 7,
@@ -101,7 +101,7 @@ let users = {
          },
 
 
-         { id:8,
+         { id:7,
             nombre: "Luz",
             apellido: " Mirlo",
             imagen: "/images/florMartinez.jpg",

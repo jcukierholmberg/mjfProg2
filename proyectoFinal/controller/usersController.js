@@ -4,8 +4,8 @@ let users = require ("../data/users");
 let usersController = {
 
     profile : function(req, res) {
-        let id = req.params.id
-        return res.render ('profile', {buzos_buzos: buzos.lista, users: users.lista, idSearch: id })
+        let idUsuario = req.params.id
+        return res.render ('profile', {buzos_buzos: buzos.lista, users: users.lista, idSearch: idUsuario})
     },
 
     profileEdit: function(req, res) {

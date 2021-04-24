@@ -33,7 +33,10 @@
 					<% for (let i = 0; i < buzos_buzos[idSearch].comentarios.length; i++) { %> 
 
 							<article>
+								<h2> ID: <%=users[i].id %>  </h2>
+								<a href="/users/profile/<%= users[i].id %> ">
 								<img src="<%= users[i].imagen %> " alt="">
+								</a>
 								<div class="data">
 									<p class="user">
 									<strong> <a href="/users/profile/:id"> 

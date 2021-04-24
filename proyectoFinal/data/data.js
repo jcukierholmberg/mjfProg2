@@ -9,16 +9,24 @@ let buzos = {
         descripcion: "Buzo Negro Adidas Originals 3-Stripes Crew. Tela Algodón|Polyester|Lino|Viscosa Composición	77% algodón – 23% poliéster",
         CreadoPor: 'joaquingonzalez',
         comentarios: [
-            {usuarioQueComento: 'flormartinez', 
+            {
+            idUsuario: 1,
+            usuarioQueComento: 'flormartinez',
             comentario:'Comodisimo!'}, 
             
-            {usuarioQueComento: 'martinasanchez',
+            {
+            idUsuario: 0, 
+            usuarioQueComento: 'martinasanchez',
             comentario:'Se me descoloro con el lavado'}, 
             
-            {usuarioQueComento: 'luz1luz', 
+            {
+            idUsuario: 7,
+            usuarioQueComento: 'luz1luz', 
             comentario:'Estaba sucio'}, 
             
-            {usuarioQueComento: 'emiliaaramburu', 
+            {
+            idUsuario:3,    
+            usuarioQueComento: 'mariaGomez', 
             comentario:'Increible, divino'}, 
             
             {usuarioQueComento: 'gonzaloecheverria', 
