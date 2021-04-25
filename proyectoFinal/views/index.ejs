@@ -40,6 +40,7 @@
 									</h3>
 							   </h3>
 							   <p>Comentarios: <%=buzos_buzos[i].comentarios.length %> </p>  
+							   <a href="/product/productEdit/<%= buzos_buzos[i].id %> "> <i class="fas fa-edit"></i> </a>
 							   									
 						   </article>
 					   </a>
@@ -83,7 +84,11 @@
 
 											</h3>
 									</h3>
-									<p>Comentarios: <%=buzos_buzos[i].comentarios.length %> </p>  
+									<div>
+									<p>Comentarios: <%=buzos_buzos[i].comentarios.length %>  </p> 
+									<p> <i class="fas fa-edit"></i>  </p> 
+									
+									</div>
 																		
 								</article>
 							</a>
