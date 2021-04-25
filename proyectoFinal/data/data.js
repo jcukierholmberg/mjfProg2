@@ -44,7 +44,7 @@ let buzos = {
         comentarios: [
             
             {
-                idUsuario: 1,
+                idUsuario: 0,
             usuarioQueComento: 'flormartinez', 
             comentario:'Se lo regale a mi novio! Le quedo perfecto'}, 
             
