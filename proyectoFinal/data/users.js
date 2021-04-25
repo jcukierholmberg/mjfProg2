@@ -110,7 +110,7 @@ let users = {
          { id:7,
             nombre: "Luz",
             apellido: " Mirlo",
-            imagen: "/images/luzMirlo.jpg",
+            imagen: "/images/luz1luz.jpg",
             productos: 29,
             seguidores: 6,
             comentarios: 7,

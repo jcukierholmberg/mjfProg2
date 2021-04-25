@@ -12,25 +12,34 @@ let buzos = {
             {
             idUsuario: 1,
             usuarioQueComento: 'flormartinez',
-            comentario:'Comodisimo!'}, 
+            comentario:'Comodisimo!',
+            imagen: "/images/florMartinez.jpg"}, 
             
             {
-            idUsuario: 0, 
-            usuarioQueComento: 'martinasanchez',
-            comentario:'Se me descoloro con el lavado'}, 
+                idUsuario: 0, 
+                usuarioQueComento: 'martinasanchez',
+                comentario:'Se me descoloro con el lavado',
+                imagen: "/images/martinaSanchez.jpg"
+            },
+
             
             {
             idUsuario: 7,
             usuarioQueComento: 'luz1luz', 
-            comentario:'Estaba sucio'}, 
+            comentario:'Estaba sucio',
+            imagen: "/images/luz1luz.jpg"}, 
             
             {
             idUsuario:3,    
             usuarioQueComento: 'mariaGomez', 
-            comentario:'Increible, divino'}, 
+            comentario:'Increible, divino',
+            imagen: "/images/mariaGomez.jpg"}, 
             
-            {usuarioQueComento: 'gonzaloecheverria', 
-            comentario:'Muy canchero'}]
+            {
+            idUsuario:4,
+            usuarioQueComento: 'gonzaloecheverria', 
+            comentario:'Muy canchero',
+            imagen: "/images/gonzaloEcheverria.jpg"}]
     },
 
         { id:1,
@@ -44,35 +53,41 @@ let buzos = {
         comentarios: [
             
             {
+                idUsuario: 1,
+                usuarioQueComento: 'flormartinez', 
+                comentario:'Se lo regale a mi novio! Le quedo perfecto',
+                imagen: "/images/florMartinez.jpg"}, 
+            
+            {
                 idUsuario: 0,
-            usuarioQueComento: 'flormartinez', 
-            comentario:'Se lo regale a mi novio! Le quedo perfecto'}, 
+                usuarioQueComento: 'martinasanchez', 
+                comentario:'Lindisimo',
+                imagen: "/images/martinaSanchez.jpg"}, 
             
             {
-            idUsuario: 0,
-            usuarioQueComento: 'martinasanchez', 
-            comentario:'Lindisimo'}, 
-            
-            {
-            idUsuario: 3,
-            usuarioQueComento: 'mariagomez', 
-            comentario:'Tardo mucho en llegar el pedido'}, 
+                idUsuario: 3,
+                usuarioQueComento: 'mariagomez', 
+                comentario:'Tardo mucho en llegar el pedido',
+                imagen: "/images/mariaGomez.jpg"}, 
             
             
             {
                 idUsuario: 6,
             usuarioQueComento: 'mialuro', 
-            comentario:'Se elastiza'},
+            comentario:'Se elastiza',
+            imagen: "/images/miaLuro.jpg"},
             
             {
                 idUsuario: 7,
                 usuarioQueComento: 'luz1luz', 
-            comentario:'Hermoso'},
+                comentario:'Hermoso',
+                imagen: "/images/luz1luz.jpg"},
             
             {
                 idUsuario: 2,
                 usuarioQueComento: 'joaquingonzalez', 
-            comentario:'Muy comodo'}]
+                comentario:'Muy comodo',
+                imagen: "/images/joaquinGonzalez.jpg"}]
     },
 
         { id:2,
@@ -84,6 +99,8 @@ let buzos = {
         descripcion: "Buzo rojo Fila net. Super comodo. Es abrigado",
         CreadoPor: 'flormartinez',
         comentarios: [
+            
+            
             {usuarioQueComento: 'gonzaloecheverria', 
             comentario:'Comodisimo'},
 

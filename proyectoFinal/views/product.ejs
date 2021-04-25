@@ -36,13 +36,13 @@
 					<% for (let i = 0; i < buzos_buzos[idSearch].comentarios.length; i++) { %> 
 
 							<article>
-								<h2 > ID: <%= users[i].id %>  </h2>
-								<a href="/users/profile/<%= users[i].id %> ">
-								<img src="<%= users[i].imagen %> " alt="">
+								
+								<a href="/users/profile/<%= buzos_buzos[idSearch].comentarios[i].idUsuario %> ">
+								<img src="<%=  buzos_buzos[idSearch].comentarios[i].imagen %> " alt="">
 								</a>
 								<div class="data">
 									<p class="user">
-									<strong> <a href="/users/profile/<%= users[i].id %> "> 
+									<strong> <a href="/users/profile/<%= buzos_buzos[idSearch].comentarios[i].idUsuario %> "> 
 										<%= buzos_buzos[idSearch].comentarios[i].usuarioQueComento %>
 									</a> </strong>
 
@@ -55,9 +55,9 @@
 
 					</section>
 
-					<form class="form" action="/product" method="GET">
+					<form class="form" action="/" method="GET">
 						<input class="form-input" type="text" value="" placeholder="Escribe aqui tu comentario">
-						<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
+						<button type="submit" class="buy-now-button"> AGREGAR COMENTARIO</button> 
 					</form>
 
 					<hr>
