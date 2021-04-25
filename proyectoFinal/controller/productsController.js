@@ -8,7 +8,8 @@ let productsController = {
     },
 
     productAdd: function(req, res) {
-        return res.render ('productAdd', {buzos_buzos: buzos.lista, users: users.lista})
+        let id = req.params.id 
+        return res.render ('productAdd', {buzos_buzos: buzos.lista, users: users.lista, idSearch: id})
     },
 
     allProducts: function(req, res) {
