@@ -523,10 +523,14 @@ h2.producto-no-existente {
   color: white;
 }
 
-/* p {
-  color: white;
-  font-size: medium;
-} */
+.search-results {
+color: white;
+}
+
+.filtrando {
+  color: orangered;
+}
+
 
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {

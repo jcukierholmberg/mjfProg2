@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> 
 
 <!-- Include Head -->
 
@@ -19,45 +19,24 @@
 	<!-- Show the "ultimos" products -->
 	<h2 class="col-12"> 
 
+		<% if (search) { %>
+			<div class="search-results">
 
+			<p class="filtrando"> Filtrando buzos " <%= search %> " ...  </p>
 
-	<% if(result.length === 0 ){ %>
-	
-		<h2 class="producto-no-existente"> Ingresa una marca existente para poder buscar </h2>
+			<h2> Disponibles en stock:</h2>
 
-	<% } else { %>  
-		
-			
+			<h3> Buzo <%= search %> sucursal Unicenter, talle M</h3>
+			<h3> Buzo <%= search %> sucursal Alto Palermo, talle L</h3>
+			<h3> Buzo <%= search %> sucursal Recoleta Mall, talle L</h3>
 
-				<% for (let i = 0; i < result.length; i++) { %> 
+		<% } else if (!search) { %>
 
-					<div class="col-12 col-sm-6 col-lg-3"> 
-						<section class="product-box">
-							<a href="/product/<%= result[i].id %>">
-								<figure class="product-box_image">
-									<img src="<%= result[i].imagen %>" alt=" ">
-								</figure>
-								<article class="product-box_data">
-									<h2> <%= result[i].marca + '' + result[i].modelo %> </h2>
-									<h3> 
-										Talles disponibles: <%= result[i].talles %>
-										<h3>
-										El buzo se publico el: <%= result[i].fechaDePublicacion %>
+			<h2>Por favor ingrese un producto para poder buscarlo</h2>
 
-										</h3>
-									</h3>
-									<p>Comentarios: <%= result[i].comentarios.length %> </p>  
-																		
-								</article>
-							</a>
-						</section>
-						
-					</div>
-	
-				<% } %> 
-
-	<% } %> 	
+		<% } %>
 	 
+			</div>
 
 	</h2>
 	</div>
