@@ -531,6 +531,11 @@ color: white;
   color: orangered;
 }
 
+.ingreso {
+  color: white;
+}
+
+
 
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
