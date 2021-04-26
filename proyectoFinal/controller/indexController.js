@@ -18,34 +18,14 @@ let indexController = {
             if (buzos_buzos.includes(search)) {
                 result.push(element)
             }
+            // else {
+            //     <p> No se encontraron resultados. </p>
+            // }
             
         }
         res.render ("search", {search: search})
         
     }, 
-
-    /*  search : function(req, res) {
-        let criterio = req.query.search
-        let resultados = [] 
-    
-        // for(let i=0; i<result.length; i ++) {
-
-            if (!criterio) { 
-
-            resultados = buzos.lista    
-    
-                            }
-
-        
-    //     else if (buzos.lista[i].marca.toLowerCase().includes(search.toLowerCase()) || buzos.lista[i].modelo.toLowerCase().includes(search.toLowerCase())) 
-                           
-    //             result.push(buzos.lista[i]    
-        
-    //     else  */
-
-    // return res.render('search', {result: resultados}) 
-
-    // }
    
 }
 
