@@ -73,9 +73,9 @@ let buzos = {
             
             {
                 idUsuario: 6,
-            usuarioQueComento: 'mialuro', 
-            comentario:'Se elastiza',
-            imagen: "/images/miaLuro.jpg"},
+                usuarioQueComento: 'mialuro', 
+                comentario:'Se elastiza',
+                imagen: "/images/miaLuro.jpg"},
             
             {
                 idUsuario: 7,
